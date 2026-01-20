@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background:whitesmoke;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  padding: 14px 0;
+  background: linear-gradient(90deg, #1a0b2e, #2b124f);
+}
+
+.nav-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.logo span {
+  color: #b56bff;
+}
+
+/* Nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #d6d6d6;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+/* Button */
+.nav-btn {
+  padding: 8px 20px;
+  background: linear-gradient(135deg, #ff4ecd, #9b5cff);
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(155, 92, 255, 0.4);
+}
+
+
+
+/* HERO */
+.hero {
+  position: relative;
+  min-height: 90vh;
+
+  background:
+   
+    url("../TechWave/assets/hero-bg.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+.hero-content {
+  text-align: center;
+  z-index: 2;
+}
+
+
+
+
+/* Logo circle */
+.logo-circle {
+  width: 140px;
+  height: 140px;
+  margin: auto;
+  border-radius: 50%;
+  position: relative;
+
+  background:
+
+    url("../TechWave/assets/hero-circle.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+
+
+
+
+
+.new-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #1aff8c;
+  color: #000;
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.hero h1 {
+  margin-top: 20px;
+  font-size: 42px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #cfcfcf;
+}
+
+/* Buttons */
+.hero-buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;      /* vertical center */
+  justify-content: center;  /* horizontal center */
+  gap: 8px;                 /* space between icon & text */
+
+  padding: 10px 22px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.spotify img {
+  width: 18px;
+  height: 18px;
+}
+
+
+
+
+
+.btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(155, 92, 255, 0.4);
+}
+
+.spotify {
+  background: linear-gradient(135deg, #ff4ecd, #9b5cff);
+}
+
+.subscribe {
+  background: #1a1a1a;
+  border: 1px solid #444;
+}
+
+
+
+
+
+
+
